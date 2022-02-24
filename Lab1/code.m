@@ -6,6 +6,7 @@ classMeans = containers.Map(classLabels, {[5 10], [10 15], [5 10], [15 10], [10 
 classCovariances = containers.Map(classLabels, {[8 0;0 4], [8 0;0 4], [8 4;4 40], [8 0;0 8], [10 -5;-5 20]});
 classColors = containers.Map(classLabels, {'#0072BD', '#D95319', '#EDB120', '#7E2F8E', '#77AC30'});
 
+rng(1); % Make the samples consistent for every run
 classes = containers.Map();
 for label = classLabels
     labelChar = char(label);
