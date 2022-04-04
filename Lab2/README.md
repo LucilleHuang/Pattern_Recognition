@@ -25,3 +25,7 @@ This lab examines the areas of statistical model estimation and classifier aggre
 
 ### Sequential Discriminants
 - See `lab_2_code/sequential_discriminants.m`
+- Adjust the `TESTS_TO_RUN` variable to set which scenarious to execute:
+
+1. Learn & plot 3 linear discriminants
+2. Learn a variable number of linear discriminants & calculate statistics (IN PROGRESS)
