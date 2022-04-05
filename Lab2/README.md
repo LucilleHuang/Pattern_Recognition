@@ -25,6 +25,7 @@ This lab examines the areas of statistical model estimation and classifier aggre
 
 ### Sequential Discriminants
 - See `lab_2_code/sequential_discriminants.m`
+    - Note that task 2 may fail occassionally. As far as we could tell through debugging, this is a transient error, possibly caused by memory issues when learning 20 classifiers. Re-running the program should resolve the issue.
 - Adjust the `TESTS_TO_RUN` variable to set which scenarious to execute:
 
 1. Learn & plot 3 linear discriminants
